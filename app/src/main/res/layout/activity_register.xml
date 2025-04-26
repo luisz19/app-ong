@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="@color/white">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="24dp">
+
+        <TextView
+            android:id="@+id/titleText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="Cadastrar"
+            android:textColor="@color/black"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.497"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <RadioGroup
+            android:id="@+id/userTypeGroup"
+            android:layout_width="241dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintTop_toBottomOf="@id/titleText"
+            tools:ignore="MissingConstraints"
+            tools:layout_editor_absoluteX="61dp">
+
+            <RadioButton
+                android:id="@+id/donorRadio"
+                android:layout_width="7dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Doador" />
+
+            <RadioButton
+                android:id="@+id/ongRadio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="ONG" />
+        </RadioGroup>
+
+        <EditText
+            android:id="@+id/nameEditText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="24dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Nome"
+            android:paddingStart="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/userTypeGroup" />
+
+        <EditText
+            android:id="@+id/emailEditText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:paddingStart="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            app:layout_constraintEnd_toEndOf="@id/nameEditText"
+            app:layout_constraintStart_toStartOf="@id/nameEditText"
+            app:layout_constraintTop_toBottomOf="@id/nameEditText" />
+
+        <EditText
+            android:id="@+id/phoneEditText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Telefone"
+            android:inputType="phone"
+            android:paddingStart="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            app:layout_constraintEnd_toEndOf="@id/emailEditText"
+            app:layout_constraintStart_toStartOf="@id/emailEditText"
+            app:layout_constraintTop_toBottomOf="@id/emailEditText" />
+
+        <EditText
+            android:id="@+id/cityEditText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Cidade"
+            android:paddingStart="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            app:layout_constraintEnd_toEndOf="@id/phoneEditText"
+            app:layout_constraintStart_toStartOf="@id/phoneEditText"
+            app:layout_constraintTop_toBottomOf="@id/phoneEditText" />
+
+        <EditText
+            android:id="@+id/stateEditText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Estado"
+            android:paddingStart="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            app:layout_constraintEnd_toEndOf="@id/cityEditText"
+            app:layout_constraintStart_toStartOf="@id/cityEditText"
+            app:layout_constraintTop_toBottomOf="@id/cityEditText" />
+
+        <EditText
+            android:id="@+id/passwordEditText"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:background="@drawable/edit_text_border"
+            android:hint="Senha"
+            android:inputType="textPassword"
+            android:paddingStart="16dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/gray"
+            app:layout_constraintEnd_toEndOf="@id/stateEditText"
+            app:layout_constraintStart_toStartOf="@id/stateEditText"
+            app:layout_constraintTop_toBottomOf="@id/stateEditText" />
+
+        <Button
+            android:id="@+id/createButton"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="32dp"
+            android:background="@drawable/button_background"
+            android:text="Criar"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:layout_constraintEnd_toEndOf="@id/passwordEditText"
+            app:layout_constraintStart_toStartOf="@id/passwordEditText"
+            app:layout_constraintTop_toBottomOf="@id/passwordEditText" />
+
+        <TextView
+            android:id="@+id/helpText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:text="Já tem uma conta? Fazer login"
+            android:textColor="@color/blue"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toEndOf="@id/createButton"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@id/createButton"
+            app:layout_constraintTop_toBottomOf="@id/createButton" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
