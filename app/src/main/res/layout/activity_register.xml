@@ -28,6 +28,7 @@
 
         <RadioGroup
             android:id="@+id/userTypeGroup"
+<<<<<<< HEAD
             android:layout_width="241dp"
             android:layout_height="46dp"
             android:layout_marginTop="32dp"
@@ -42,18 +43,46 @@
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
                 android:text="Doador" />
+=======
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="32dp"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/titleText">
+
+            <RadioButton
+                android:id="@+id/donorRadio"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:padding="8dp"
+                android:text="Doador"
+                android:textSize="16sp" />
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
 
             <RadioButton
                 android:id="@+id/ongRadio"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
+<<<<<<< HEAD
                 android:text="ONG" />
+=======
+                android:padding="8dp"
+                android:text="ONG"
+                android:textSize="16sp" />
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
         </RadioGroup>
 
         <EditText
             android:id="@+id/nameEditText"
+<<<<<<< HEAD
             android:layout_width="300dp"
+=======
+            android:layout_width="0dp"
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
             android:layout_height="50dp"
             android:layout_marginTop="24dp"
             android:background="@drawable/edit_text_border"
@@ -67,7 +96,11 @@
 
         <EditText
             android:id="@+id/emailEditText"
+<<<<<<< HEAD
             android:layout_width="300dp"
+=======
+            android:layout_width="0dp"
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/edit_text_border"
@@ -82,7 +115,11 @@
 
         <EditText
             android:id="@+id/phoneEditText"
+<<<<<<< HEAD
             android:layout_width="300dp"
+=======
+            android:layout_width="0dp"
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/edit_text_border"
@@ -97,7 +134,11 @@
 
         <EditText
             android:id="@+id/cityEditText"
+<<<<<<< HEAD
             android:layout_width="300dp"
+=======
+            android:layout_width="0dp"
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/edit_text_border"
@@ -111,7 +152,11 @@
 
         <EditText
             android:id="@+id/stateEditText"
+<<<<<<< HEAD
             android:layout_width="300dp"
+=======
+            android:layout_width="0dp"
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/edit_text_border"
@@ -125,7 +170,11 @@
 
         <EditText
             android:id="@+id/passwordEditText"
+<<<<<<< HEAD
             android:layout_width="300dp"
+=======
+            android:layout_width="0dp"
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
             android:layout_height="50dp"
             android:layout_marginTop="16dp"
             android:background="@drawable/edit_text_border"
@@ -140,7 +189,11 @@
 
         <Button
             android:id="@+id/createButton"
+<<<<<<< HEAD
             android:layout_width="300dp"
+=======
+            android:layout_width="0dp"
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
             android:layout_height="50dp"
             android:layout_marginTop="32dp"
             android:background="@drawable/button_background"
@@ -157,11 +210,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
+<<<<<<< HEAD
             android:text="Já tem uma conta? Fazer login"
             android:textColor="@color/blue"
             android:textSize="14sp"
             app:layout_constraintEnd_toEndOf="@id/createButton"
             app:layout_constraintHorizontal_bias="1.0"
+=======
+            android:layout_marginBottom="16dp"
+            android:text="Já tem uma conta? Fazer login"
+            android:textColor="@color/blue"
+            android:textSize="14sp"
+            android:background="?android:attr/selectableItemBackground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/createButton"
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
             app:layout_constraintStart_toStartOf="@id/createButton"
             app:layout_constraintTop_toBottomOf="@id/createButton" />
 

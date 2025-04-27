@@ -31,8 +31,11 @@
             android:name=".RegisterActivity"
             android:exported="false" />
 
+<<<<<<< HEAD
         <activity android:name=".ListActivity" android:exported="false"/>
 
+=======
+>>>>>>> 1ce39c8fa71b0b7d43270fc1820bf9d0f288d066
     </application>
 
 </manifest>
