@@ -28,7 +28,7 @@ Este é um aplicativo desenvolvido como trabalho da faculdade, com o objetivo de
 1. Clone o repositório:
 
    ```bash
-   git clone https://github.com/luisz19/app-ong.git```
+   git clone https://github.com/luisz19/app-ong.git
 
 2. Abra o projeto no Android Studio.
 
