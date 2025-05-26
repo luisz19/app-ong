@@ -6,7 +6,7 @@ Este é um aplicativo desenvolvido como trabalho da faculdade, com o objetivo de
 
 ## 🚀 Funcionalidades
 
-- ✅ Cadastro de animais
+- ✅ Cadastro de ONGs
 - ✅ Cadastro de doadores
 - ✅ Registro de adoções
 - ✅ Perguntas frequentes (FAQ)
