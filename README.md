@@ -8,7 +8,7 @@ Este é um aplicativo desenvolvido como trabalho da faculdade, com o objetivo de
 
 - ✅ Cadastro de ONGs
 - ✅ Cadastro de doadores
-- ✅ Registro de adoções
+- ✅ Registro de doações
 - ✅ Perguntas frequentes (FAQ)
 - ✅ Gerenciamento de informações da ONG
 - ✅ Login
