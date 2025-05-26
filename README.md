@@ -43,22 +43,22 @@ Este é um aplicativo desenvolvido como trabalho da faculdade, com o objetivo de
 ## 🖼️ Screenshots
 
 ### 🔐 Tela de Login
-![Tela de Login](assets/LOGIN.jpeg)
+<img src="assets/LOGIN.jpeg" alt="Tela de Login" width="300" />
 
 ---
 
 ### 🆕 Tela de Cadastro
-![Tela de Cadastro](assets/Registro.jpeg)
+<img src="assets/Registro.jpeg" alt="Tela de Cadastro" width="300" />
 
 ---
 
 ### ❓ Perguntas Frequentes (FAQ)
-![Perguntas Frequentes](assets/FAQ.jpeg)
+<img src="assets/FAQ.jpeg" alt="Perguntas Frequentes" width="300" />
 
 ---
 
 ### 👥 Escolha: ONG ou Doador
-![Escolha de Perfil](assets/ONGorDOADOR.jpeg)
+<img src="assets/ONGorDOADOR.jpeg" alt="Escolha de Perfil" width="300" />
 
 ---
 
